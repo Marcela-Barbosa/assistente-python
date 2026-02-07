@@ -29,8 +29,8 @@ print('-----------------------------')
 
 numero=int(input('Digite um número inteiro para ver a tabuada:'))
 print(f'Tabuada do {numero}:')
-for i in range(1,11):
-    print(f'{numero}*{i}={numero*i}')
+    for i in range(1,11):
+         print(f'{numero}*{i}={numero*i}')
 
 print('---------------------------')
 
@@ -57,3 +57,4 @@ print(f'Desconto de 5%:R${desconto:.2f}')
 print(f'Novo preço:R${novo_preco:.2f}')
 
 print('===Fim do programa===')
+
